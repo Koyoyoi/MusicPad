@@ -2,6 +2,8 @@
 
 MusicPad is a browser-based music creation tool built with p5.js, featuring a step sequencer, drum machine, and piano interface for real-time music composition.
 
+Live Demo: https://koyoyoi.git.io/MusicPad
+
 ---
 
 ## Features
