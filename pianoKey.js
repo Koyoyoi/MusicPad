@@ -113,7 +113,7 @@ function drawKey() {
     } else {
       fill("#fcfaf2");
     }
-    rect(w.pos.x, w.pos.y, key_font.wk.w, key_font.wk.h, 10);
+    rect(w.pos.x, w.pos.y, key_font.wk.w, key_font.wk.h , 10);
 
     if (chordMode) {
       noStroke();
@@ -121,7 +121,7 @@ function drawKey() {
       for (let c of chords) {
         if (c[0] == w.midi % 12) {
           fill("#1e88a8");
-          square(w.pos.x + mark.x, w.pos.y + mark.y, 10, 50);
+          square(w.pos.x + mark.x, w.pos.y + mark.y -20, 10, 50);
         }
       }
     }
@@ -143,7 +143,7 @@ function drawKey() {
       for (let c of chords) {
         if (c[0] == b.midi % 12) {
           fill("#1e88a8");
-          square(b.pos.x + mark.x, b.pos.y + mark.y, 10, 50);
+          square(b.pos.x + mark.x, b.pos.y + mark.y - 20, 10, 50);
         }
       }
     }
