@@ -68,6 +68,7 @@ function setup() {
 }
 
 function draw() {
+  background("#080808");
   drawBlock();
   drawKey();
   drawDemo();
